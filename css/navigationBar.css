@@ -1,0 +1,24 @@
+.navbar {
+  background-color: rgb(51, 51, 51);
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #fff;
+  border-radius: 0;
+  color: #fff;
+}
+
+.navbar-toggler {
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+}
+
+.fa-bars {
+  margin: auto 0.3rem auto 0;
+}
+
+.menu-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: auto 0;
+}

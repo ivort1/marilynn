@@ -1,0 +1,38 @@
+.jumbotron-container {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url("../images/flowers-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0;
+  font-family: "Josefin Sans", sans-serif;
+  height: 100vh;
+  margin-bottom: 0;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.display-4 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+}
+
+.lead {
+  color: #ccc;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 1.5rem 0;
+}
+
+.btn-primary {
+  background-color: rgb(108, 16, 38);
+  border-color: rgb(108, 16, 38);
+}
+
+.far {
+  margin-right: 0.5rem;
+}
