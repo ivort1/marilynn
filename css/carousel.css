@@ -3,17 +3,23 @@
   color: rgb(51, 51, 51);
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  height: 90vh;
+  height: 100vh;
   padding: 2rem;
   text-align: center;
 
+  margin: auto;
+}
+
+.carousel-inner {
+  height: 75vh;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
 }
 
 #testimonials-title {
   color: #fff;
+  margin-top: 1rem;;
 }
 
 .testimonial-quoter {

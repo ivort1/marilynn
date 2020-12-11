@@ -28,10 +28,60 @@
   margin: 1.5rem 0;
 }
 
-.btn-primary {
+.resume-button {
   background-color: rgb(108, 16, 38);
   border-color: rgb(108, 16, 38);
+  border-radius: 0.3rem;
+  border-style: solid;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
 }
+
+.resume-button:active {
+  border-color: rgb(143, 21, 50);
+  text-decoration: none;
+}
+
+.resume-button:hover {
+  background-color: rgb(143, 21, 50);
+  border-color: rgb(143, 21, 50);
+}
+.resume-button:visited {
+  border-color: rgb(143, 21, 50);
+}
+
+.resume-button a {
+  color: #fff;
+}
+
+.resume-button a:hover {
+  text-decoration: none;
+}
+
+/* .btn-primary {
+  background-color: rgb(108, 16, 38) !important;
+  border-color: rgb(108, 16, 38) !important;
+}
+
+.btn-primary:hover {
+  background-color: rgb(143, 21, 50) !important;
+  border-color: rgb(143, 21, 50) !important;
+  box-shadow: none !important;
+}
+
+.btn-primary:active {
+  background-color: rgb(143, 21, 50) !important;
+  border-color: rgb(143, 21, 50) !important;
+  box-shadow: none !important;
+}
+
+.btn-primary:visited {
+  background-color: rgb(143, 21, 50);
+  border-color: rgb(143, 21, 50);
+  box-shadow: none;
+} */
 
 .far {
   margin-right: 0.5rem;
