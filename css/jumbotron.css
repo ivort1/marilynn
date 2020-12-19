@@ -1,63 +1,64 @@
 .jumbotron-container {
-  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
-    url("../images/flowers-background.jpg");
-  background-position: center center;
-  background-size: cover;
-  border-radius: 0;
-  font-family: "Josefin Sans", sans-serif;
-  height: 100vh;
-  margin-bottom: 0;
-  text-align: center;
+	background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+		url("../images/flowers-background.jpg");
+	background-position: center center;
+	background-size: cover;
+	border-radius: 0;
+	font-family: "Josefin Sans", sans-serif;
+	height: 100vh;
+	margin-bottom: 0;
+	text-align: center;
 
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
+/* Marilyn Muro h1 */
 .display-4 {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: 400;
-  letter-spacing: 0.08em;
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 400;
+	letter-spacing: 0.08em;
 }
 
 .lead {
-  color: #ccc;
-  font-size: 1.125rem;
-  font-weight: 400;
-  margin: 1.5rem 0;
+	color: #ccc;
+	font-size: 1.125rem;
+	font-weight: 400;
+	margin: 1.5rem 0;
 }
 
 .resume-button {
-  background-color: rgb(108, 16, 38);
-  border-color: rgb(108, 16, 38);
-  border-radius: 0.3rem;
-  border-style: solid;
-  color: #fff;
-  font-size: 1.25rem;
-  padding: 0.75rem 2rem;
-  text-decoration: none;
+	background-color: rgb(108, 16, 38);
+	border-color: rgb(108, 16, 38);
+	border-radius: 0.3rem;
+	border-style: solid;
+	color: #fff;
+	font-size: 1.25rem;
+	padding: 0.75rem 2rem;
+	text-decoration: none;
 }
 
 .resume-button:active {
-  border-color: rgb(143, 21, 50);
-  text-decoration: none;
+	border-color: rgb(143, 21, 50);
+	text-decoration: none;
 }
 
 .resume-button:hover {
-  background-color: rgb(143, 21, 50);
-  border-color: rgb(143, 21, 50);
+	background-color: rgb(143, 21, 50);
+	border-color: rgb(143, 21, 50);
 }
 .resume-button:visited {
-  border-color: rgb(143, 21, 50);
+	border-color: rgb(143, 21, 50);
 }
 
 .resume-button a {
-  color: #fff;
+	color: #fff;
 }
 
 .resume-button a:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 /* .btn-primary {
@@ -84,5 +85,5 @@
 } */
 
 .far {
-  margin-right: 0.5rem;
+	margin-right: 0.5rem;
 }
